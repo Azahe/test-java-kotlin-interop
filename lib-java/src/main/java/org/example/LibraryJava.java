@@ -1,6 +1,6 @@
 package org.example;
 
-public class Library {
+public class LibraryJava {
 
   public static String method() {
     return "Java";

@@ -14,4 +14,5 @@ plugins {
 rootProject.name = 'java-kotlin-interop'
 include('lib-kotlin')
 include 'lib-java'
+include 'java-using-kotlin'
 
