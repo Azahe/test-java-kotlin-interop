@@ -17,4 +17,5 @@ include 'lib-java'
 include 'java-using-kotlin'
 include 'kotlin-using-java'
 include 'kotlin-using-java'
+include 'kotlin-and-java-mixed'
 
