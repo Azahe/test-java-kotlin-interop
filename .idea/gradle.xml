@@ -8,7 +8,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/java-and-kotlin-mixed" />
             <option value="$PROJECT_DIR$/java-using-kotlin" />
+            <option value="$PROJECT_DIR$/kotlin-and-java-mixed" />
             <option value="$PROJECT_DIR$/kotlin-using-java" />
             <option value="$PROJECT_DIR$/lib-java" />
             <option value="$PROJECT_DIR$/lib-kotlin" />

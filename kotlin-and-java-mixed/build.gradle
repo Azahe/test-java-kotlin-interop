@@ -1,0 +1,22 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+}
+
+group = 'org.example'
+version = 'unspecified'
+
+repositories {
+    mavenCentral()
+}
+
+// dont need anything else - you can simply have java code in kotlin module
+dependencies {
+    testImplementation 'org.jetbrains.kotlin:kotlin-test'
+}
+
+test {
+    useJUnitPlatform()
+}
+kotlin {
+    jvmToolchain(17)
+}
