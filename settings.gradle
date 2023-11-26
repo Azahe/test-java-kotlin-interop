@@ -15,4 +15,6 @@ rootProject.name = 'java-kotlin-interop'
 include('lib-kotlin')
 include 'lib-java'
 include 'java-using-kotlin'
+include 'kotlin-using-java'
+include 'kotlin-using-java'
 

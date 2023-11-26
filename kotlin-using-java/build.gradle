@@ -1,0 +1,30 @@
+plugins {
+  id 'org.jetbrains.kotlin.jvm' version '1.9.10'
+}
+
+group = 'org.example'
+version = 'unspecified'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  implementation(project(':lib-kotlin'))
+  implementation(project(':lib-java')) // again just add as a dependency
+  testImplementation 'org.jetbrains.kotlin:kotlin-test'
+}
+
+testing {
+  suites {
+    // Configure the built-in test suite
+    test {
+      // Use Kotlin Test test framework
+      useKotlinTest('1.9.10')
+    }
+  }
+}
+
+kotlin {
+  jvmToolchain(17)
+}

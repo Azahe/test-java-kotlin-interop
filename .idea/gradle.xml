@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -8,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/java-using-kotlin" />
+            <option value="$PROJECT_DIR$/kotlin-using-java" />
             <option value="$PROJECT_DIR$/lib-java" />
             <option value="$PROJECT_DIR$/lib-kotlin" />
           </set>
